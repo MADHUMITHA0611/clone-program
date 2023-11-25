@@ -1,0 +1,96 @@
+public class PositiveNegative {
+
+    public static void main(String[] args) {
+
+        double number = 12.3;
+
+        // true if number is less than 0
+        if (number < 0.0)
+            System.out.println(number + " is a negative number.");
+
+        // true if number is greater than 0
+        else if ( number > 0.0)
+            System.out.println(number + " is a positive number.");
+
+        // if both test expression is evaluated to false
+        else
+            System.out.println(number + " is 0.");
+    }
+}
+Output
+
+12.3 is a positive number.
+If you change the value of number to a negative number (say -12.3), the output will be:
+
+-12.3 is a negative number.
+In the above program, it is quite clear how the variable number is checked to be positive or negative, by comparing it to 0.
+
+If you're not sure, here is the breakdown:
+
+If a number is greater than zero, it is a positive number.
+If a number is less than zero, it is a negative number.
+If a number equals to zero, it is zero.
+Share on:
+Did you find this article helpful?
+
+Related Examples
+Java Example
+
+Display Factors of a Number
+
+Java Example
+
+Check Armstrong Number
+
+Java Example
+
+Calculate the Power of a Number
+
+Java Example
+
+Find Factorial of a Number Using Recursion
+
+
+Join our newsletter for the latest updates.
+Enter Email Address
+Join
+
+
+Tutorials
+Python 3 Tutorial
+JavaScript Tutorial
+SQL Tutorial
+HTML Tutorial
+R Tutorial
+C Tutorial
+C++ Tutorial
+Java Tutorial
+Rust Tutorial
+Go Tutorial
+Kotlin Tutorial
+Swift Tutorial
+C# Tutorial
+DSA Tutorial
+Examples
+Python Examples
+JavaScript Examples
+C Examples
+Java Examples
+Kotlin Examples
+C++ Examples
+Company
+About
+Advertising
+Privacy Policy
+Terms & Conditions
+Contact
+Blog
+Careers
+Youtube
+Apps
+Learn Python
+Learn C Programming
+Learn Java
+© Parewa Labs Pvt. Ltd. All rights reserved.
+
+   
